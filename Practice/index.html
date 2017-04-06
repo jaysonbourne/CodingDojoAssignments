@@ -1,0 +1,126 @@
+<html>
+   <head>
+      <!the title is basically used so that the browser can find the description, its a description tag>
+      <title>My Registration Form</title>
+<!The script element is used to write what i need to know on the console. you inspect element of the website and then click>
+<!console and then you can code javascript but script is used so you don't lose your code later on>
+      <script>
+      function zeroOutNegVal(arr){
+          for(var i =0; i<arr.length;i++){
+              if(arr[i]<0){
+                  arr[i]=0
+              }
+          }
+          console.log(arr);
+      }
+      </script>
+   </head>
+
+   <h1>My Registration Form</h1>
+      <p><b>PLEASE REGISTER</b></p>
+
+   <form action="/action_page.php">
+      <div>
+      <ul>
+         <label for="First Name">First Name:</label>
+         <input type="text" id="first_name" name="first_name">
+            <br><br>
+         <label for="Last Name">Last Name:</label>
+         <input type="text" id="last_name" name="last_name">
+            <br><br>
+         <label id="email">Email:</label>
+         <input type="text" id="email" name="email">
+            <br><br>
+         <label id="Password">Password:</label>
+         <input type="text" id="Password"
+<br>      <br><br>
+         <label id="PW Confirm">PW Confirm:</label>
+         <input type="text" id"PW Confirm"
+      </ul>
+<br><br>
+   <form action="/action_page.php">
+      Birthday (date):
+      <input type="date" name="date">
+      <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png" alt="calendar" style="width:20px;height:20px;">
+   <br><br>
+   <form>
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+   </form>
+   <form>
+      <p>What's your favorite language?</p>
+      <select>
+         <option value="Javascript">Javascript</option>
+         <option value="HTML">HTML</option>
+         <option value="C++">C++</option>
+         <option value="IDK">IDK</option>
+      </select>
+   <p><b>Say a few words about yourself:</b></p>
+      <textarea rows="7" cols="50"></textarea>
+      <br>
+       <input type="submit" value="Submit">
+    </form>
+</div>
+</html>
+
+
+<!ANSWERS>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Assignment</title>
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form action="">
+            <label for="f_name">First Name:</label>
+            <input type="text" id="f_name">
+            <br>
+
+            <label for="l_name">Last Name:</label>
+            <input type="text" id="l_name">
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <br>
+
+            <label for="pw">Password:</label>
+            <input type="password" id="pw">
+            <br>
+
+            <label for="pw_confirm">Password Confirmation:</label>
+            <input type="password" id="pw_confirm">
+            <br>
+
+            <label for="bday">Birthday</label>
+            <input type="date" id="bday">
+            <br>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br>
+
+            <label for="desc">Description:</label>
+            <br>
+            <textarea id="desc" cols="30" rows="10"></textarea>
+            <br>
+
+            <label for="lang">Favorite Language:</label>
+            <select id="lang">
+                <option value="">JavaScript</option>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+            </select>
+            <br>
+
+            <input type="submit" value="SUBMIT ME!!!">
+        </form>
+    </body>
+</html>

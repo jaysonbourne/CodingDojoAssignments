@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+    <script type="text/javascript">
+      function roundMinutes(date) {
+        return date.getMinutes() >= 30 ? date.getHours() + 1 : date.getHours();
+      }
+      function tellMeAGoodJoke() {
+        var jokeStr = "Have you heard about corduroy pillowcases?";
+        jokeStr = jokeStr + " .... They're making headlines!";
+        return jokeStr;
+        jokeStr += "Thanks, I'm here all week...";
+      }
+      var arr=[];
+      for(var val = 3; val <= 100; val +=3){
+        arr.push(val);
+      }
+      console.log(arr);
+      function numGreaterThanY(arr){
+        var numGreater = 0;
+        var Y=4;
+        for(var idx =0; idx <arr.length; idx++){
+          if(arr[idx]> Y){
+            numGreater++;
+          }
+        }
+        console.log("%d values are greater than %d, numGreater, Y");
+      }
+    numGreaterThanY([1,3,4,5]);
+
+  </script>
+</head>

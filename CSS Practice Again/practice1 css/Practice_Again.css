@@ -1,0 +1,48 @@
+p{
+  color: blue;
+  font-weight: bold;
+}
+#important{
+  font-size: 36px;
+}
+.info{
+  background-color: yellow;
+  border: 2px solid blue;
+  text-align: right;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: 40px;
+}
+p + #important{
+  margin-right: 100px;
+}
+ul > li{
+  background: purple;
+  color: silver;
+}
+.examples{
+  font-style: italic;
+  font-family: fantasy;
+}
+a[href*=cnn]{
+  color: red;
+}
+ul li:first-child{
+  border: 4px solid brown;
+}
+ol li:last-child{
+  border-bottom: 5px solid gold;
+}
+ul li:nth-child(2){
+  background: lightblue;
+}
+.george{
+  background-image: url(https://media.giphy.com/media/m1y5Iver1GNR6/giphy.gif);
+  background-repeat: no-repeat;
+  height: 400px;
+  text-align: center;
+}
+span{
+  font-family: cursive;
+  font-size: 36px;
+}

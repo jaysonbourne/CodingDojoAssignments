@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather APP</title>
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js">
+    </script>
+    <script>
+            $(document).ready(function(){
+                $.get("http://api.openweathermap.org/data/2.5/weather?q=California,us&appid=190568a61fdc6cffdf0c88f249e6dfda", function(response){
+                    console.log(response)
+                    var temp = Math.floor(1.8 * (response.main.temp - 273) + 32)
+                    $('body').append("<h1>Location: "+response.name+"</h1>")
+                    $('body').append("<h3>Forcast: "+response.weather[0].description+"</h3>")
+                    $('body').append("<h4>Temp: "+temp+"</h4>")
+
+                })
+            })
+        </script>
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

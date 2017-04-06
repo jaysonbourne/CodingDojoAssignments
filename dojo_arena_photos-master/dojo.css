@@ -1,0 +1,59 @@
+*{
+}
+.background_start{
+  background-color: black;
+  width: 1026px;
+  height: 770px;
+  border: 2px solid grey;
+}
+.hiddenimages{
+  display: run-in;
+}
+.wireframe1{
+  background-color: lightgrey;
+  text-align: center;
+  width: 200px;
+  border: 5px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: sans-serif;
+  margin:311px;
+  margin-left: 387px;
+}
+button{
+  background: #eee;
+  font-size: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  font: "Noto Sans", sans-serif;
+  border: none;
+  margin: 2px;
+}
+h3{
+  font-family: sans-serif;
+  color: orange;
+  text-shadow: 2px 2px white;
+}
+.arena_button{
+  display: block;
+  align-content: center;
+  margin: 2px;
+}
+.arena_button2{
+display:block;
+align-content: center;
+margin: 2px;
+}
+.wrapper-selectplayers{
+    height: 400px;
+    width: 500px;
+    border: 6px solid grey;
+    background-image: url("dojo_arena_photos/dojo.jpg");
+}
+.selectplayers{
+    height: 400px;
+    width: 500px;
+    font-size: 40px;
+    color: yellow;
+    margin: 100px 100px 100px 120px;
+}

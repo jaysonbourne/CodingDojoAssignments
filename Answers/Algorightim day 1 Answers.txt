@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>This is my title</title>
+        <script>
+            // var name = 'joe';
+            // if(name === 'joe'){
+            //     console.log('who is joe?')
+            // } else if (name === 'kamilah') {
+            //     console.log('my name is kamilah')  
+            // } else {
+            //     console.log('kris')
+            // }
+            // var arr = [1, 2, 'star wars', 'kris was here ', 10, true];
+            
+            // for(var i = 0; i < arr.length; i++){
+            //     console.log('the value of i is: ', i)
+            //     console.log('the value inside our array at the index of i is: ', arr[i])
+            // }
+
+            function print1to255 () {
+                for(var i = 1; i <= 255; i++){
+                    console.log(i);
+                }
+            }
+            function printOdds1to255 () {
+                for(var i = 1; i <= 255; i+=2){
+                    console.log(i);
+                }
+            }
+            function printIntsAndSum1to255(){
+                var sum = 0;
+                for(var i = 0; i <= 255; i++) {
+                    sum = sum + i;
+                    console.log('int is: ', i, 'sum is: ', sum);
+                }
+            }
+
+            function interatePrintArray(param) {
+                for(var i = 0; i < param.length; i++){
+                    console.log(param[i]);
+                }
+            }
+
+            function findAndPrintMax(arr){
+                var max = arr[0];
+                for(var i = 1; i < arr.length; i++){
+                    if(arr[i] > max){
+                        max = arr[i];
+                    }
+                }
+                console.log(max);
+            }
+            function getAndPrintAverage(arr){
+                var sum = 0;
+                for(var i = 0; i < arr.length; i++){
+                    sum += arr[i];
+                }
+                console.log(sum/arr.length);
+            }
+            function arraysWithOdds(){
+                var myArray = [];
+                for(var i = 1; i <= 255; i+=2){
+                    myArray.push(i)
+                    // myArray[myArray.length] = i
+                }
+                console.log(myArray);
+            }
+            function squareValues(arr){
+                for(var i = 0; i < arr.length; i++){
+                    arr[i] = arr[i] * arr[i]
+                }
+                console.log(arr)
+            }
+
+            function greaterThanY(arr, y){
+                var count = 0;
+                for(var i = 0; i <arr.length; i++){
+                    if(arr[i] > y){
+                        count++;
+                    }
+                }
+                console.log(count)
+            }
+            
+            function zeroOutNegativeNumbers(arr){
+                for(var i = 0; i < arr.length; i++){
+                    if(arr[i] < 0){
+                        arr[i] = 0;
+                    }
+                }
+                console.log(arr);
+            }
+
+            function shiftArrayValues(arr){
+                for(var i = 0; i < arr.length - 1; i++){
+                    arr[i] = arr[i+1];
+                }
+                arr[arr.length-1] = 0;
+                console.log(arr)
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1>hello everyone, i hate kittens!</h1>
+        <p>kittens are really cool, kittens open their eyes at 6 weeks of age. </p>
+        <h4>Kittens turn into cats</h4>
+        <h6>Facts about cats</h6>
+        <ul>
+            <li>Can see at night</li>
+            <li>They hate humans</li>
+        </ul>
+        <img src="http://i.imgur.com/dkY1gph.jpg" alt="">
+    </body>
+</html>

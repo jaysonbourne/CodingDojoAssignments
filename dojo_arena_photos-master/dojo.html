@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NinjaArena</title>
+    <link rel="stylesheet" href="dojo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".snow").click(function(){
+        $(".background_start").css("background-image", "url(snow.jpg)")
+      })
+      $(".beach").click(function(){
+        $(".background_start").css("background-image", "url(beach.jpg)")
+      })
+      $(".matrix").click(function(){
+        $(".background_start").css("background-image", "url(matrix.jpg)")
+      })
+      $(".matrix").click(function(){
+        $(".background_start").css("background-image", "url(matrix.jpg)")
+      })
+      $(".forest").click(function(){
+        $(".background_start").css("background-image", "url(forest.jpg)")
+      })
+      $(".earth").click(function(){
+        $(".background_start").css("background-image", "url(earth.jpg)")
+      })
+      $(".dojo").click(function(){
+        $(".background_start").css("background-image", "url(dojo.jpg)")
+      })
+    })
+    </script>
+  </head>
+  <body>
+    <div class="background_start">
+      <div class="wireframe1">
+        <h3> Select Arena</h3>
+        <div class="arena_button">
+          <button class= "snow" type="button" name="arena">Snow</button>
+          <button class="beach" type="button" name="arena">Beach</button>
+          <button class="matrix" type="button" name="arena">Matrix</button>
+        <div class="arena_button2">
+          <button class="forest" type="button" name="arena">Forest</button>
+          <button class="earth" type="button" name="arena">Earth</button>
+          <button class="dojo" type="button" name="arena">Dojo</button>
+        </div>
+      </div>
+    </div>
+    <div class="wireframe2">
+      <div class="wrapper-selectplayers">
+        <div class ="selectplayers">Select Players
+           <p>
+              <select class="player1">Select Ninja:
+                <option value="donny">Donny</option>
+                <option value="leo">Leo</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+            </select>
+              <select class="player2">Select Ninja:
+                <option value="donny">Donny</option>
+                <option value="leo">Leo</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+            </select>
+        </p>
+       </div>
+    </div>
+    <div class="wireframe3"></div>
+
+  </body>
+</html>

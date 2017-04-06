@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#container{
+  padding: 10px 20px;
+  border: 2px dashed #900C3F;
+}
+body{
+  font-family: Copperplate Gothic Light, sans-serif;
+  color: #2482BB;
+  text-align: center;
+}
+img{
+  width:280px;
+  height: 170px;
+  border-bottom: 3px dashed #900C3F;
+  margin: 5px;
+}
+.row1 , .row2{
+  margin: 5px;
+  padding: 5px;
+}
+.header{
+  opacity: 0.5;
+  border-bottom: 3px dotted #2482BB;
+}
+h1{
+  margin-bottom: 5px;
+}
+f

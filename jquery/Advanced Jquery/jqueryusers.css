@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  width: 400px;
+}
+table{
+  font-family: sans-serif;
+  margin: 10px;
+}
+.tabletime th{
+  padding: 5px;
+  font-size: 14px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.tabletime{
+  border: 2px dashed grey;
+  margin-bottom: 10px;
+}
+.users{
+  border-bottom: 2px solid black;
+}
+label, input{
+  display: block;
+  margin-left: 10px;
+}
+form{
+  border: 2px dashed grey;
+}
+button{
+  margin-left: 340px;
+  margin-top: 10px;
+}

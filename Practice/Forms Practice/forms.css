@@ -1,0 +1,17 @@
+*{
+  margin: auto;
+  width: auto;
+}
+form{
+  text-align: left;
+}
+h1{
+  font-style: italic;
+  color: violet;
+  text-align: center;
+}
+p{
+  font-family: cursive;
+  font-size: 14pt;
+  color: #22b5b8;
+}

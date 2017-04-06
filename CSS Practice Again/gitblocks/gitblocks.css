@@ -1,0 +1,87 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#container{
+  font-family: inherit;
+  background-color: #dddfd3;
+  color: white;
+  margin: 0px auto;
+  width: 970px;
+  height: 960px;
+}
+#header{
+  background-color: #38b0ac;
+  margin: 12px;
+  width: 943px;
+  height: 60px;
+  display: inline-block;
+}
+#header img{
+  height:64px;
+  width: 210px;
+  display: inline-block;
+}
+#header ul{
+  display: inline-block;
+  list-style: none;
+  margin-left: 0px;
+  vertical-align: top;
+}
+#header li {
+  text-align: right;
+  display: inline;
+  margin-left:10px;
+}
+#maincontent{
+  background-color:#fbe691;
+  margin: 12px;
+  width: 943px;
+  height: 725px;
+  display: inline-block;
+}
+.side-info{
+  width: 220px;
+  height: 657px;
+  background-color: #154044;
+  margin:10px;
+  padding: 23px;
+  display: inline-block;
+}
+.side-info h4{
+  text-align: center;
+}
+.gitmain{
+  background-color: pink;
+  width: 631px;
+  height: 703px;
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  vertical-align: top;
+}
+.gitmain p{
+  line-height: 20px;
+  margin: 10px;
+}
+.weird{
+  height: 230px;
+  width: 360px;
+  margin-left: 10px;
+}
+.not_weird{
+  height: 230px;
+  width: 246px;
+  display: inline;
+}
+#footer{
+  background-color:#38b0ac;
+  margin:12px;
+  width: 943px;
+  height: 62px;
+  display: inline-block;
+}
+#footer p{
+  text-align: center;
+  margin: 10px;
+}

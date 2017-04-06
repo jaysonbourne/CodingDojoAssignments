@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hovering In and Out</title>
+    <link rel="stylesheet" href="hoverintout.css">
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("img").hover(function(){
+          $(this).attr({
+            "src": $(this).attr("alt-src"),
+            "alt-src": $(this).attr("src")
+          })
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <h1>Good Design Makes Me Hover</h1>
+      </div>
+      <div class="row1">
+        <img src="http://4.bp.blogspot.com/-MMdGTod7pT0/VJaPdW6NO0I/AAAAAAAAMb4/qUdcbJLt-Uc/s1600/GDMMH_SquareCresent_3.jpg" alt-src="https://s-media-cache-ak0.pinimg.com/736x/44/eb/43/44eb4390accd40927958ff6421e33ec9.jpg">
+        <img src="https://s-media-cache-ak0.pinimg.com/564x/f2/a7/f0/f2a7f0a0ccea49e1faeb2b9fba3fb4c7.jpg" alt-src="https://s-media-cache-ak0.pinimg.com/originals/12/d3/3f/12d33f2e59bbf4a01462f0ec6b24ec33.jpg">
+        <img src="https://4.bp.blogspot.com/-PODxI8K7BQo/WJfvtrSW7fI/AAAAAAAAXF0/eCvQwMfd08suoh7feQysl0ApVZSPQSdVACLcB/s1600/rocket_03.jpg" alt-src="https://s-media-cache-ak0.pinimg.com/736x/fc/20/37/fc20375918064a5caa9a88b03c03da18.jpg">
+        <img src="https://3.bp.blogspot.com/-JevSs3-BPTM/V-orJrN861I/AAAAAAAAVWw/yNWWxQ4s1QI3eU9rOcTsDF2SWobLBlRlQCLcB/s1600/GDMMH_Umami_10.jpg" alt-src="https://pbs.twimg.com/media/C6_cTQUU8AEQYiW.jpg">
+      </div>
+      <div class="row2">
+        <img src="http://3.bp.blogspot.com/-BsoIdQUdfEI/UyVQIhiaEYI/AAAAAAAAGUk/EONulL174II/s1600/1FazerCafe_Logo_RGB_Blue.jpg" alt-src="https://s-media-cache-ak0.pinimg.com/736x/d9/65/f9/d965f92d5caaf33ca9da2b5541421bbc.jpg">
+        <img src="http://2.bp.blogspot.com/-QxmTgr3hM8s/UgzGi6NEzII/AAAAAAAADMA/UJtw9ETDu2A/s1600/apre+behance-21_1024.jpg" alt-src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c00b3520058727.562e4d01b0fbd.jpg">
+        <img src="http://1.bp.blogspot.com/-ZClURNMH4ig/VEw2371TuvI/AAAAAAAALlY/HvuBS-8URKg/s1600/GDMMH_FortPoint_1.jpg" alt-src="https://www.ethos3.com/wp-content/uploads/2016/06/Why-good-design-1024x600.jpg">
+        <img src="https://1.bp.blogspot.com/-VI_piKcaiS0/VwL35UOXwaI/AAAAAAAATzw/p5M-MOKC-VYShBvDua7_LSH4f28hl1LZQ/s1600/GDMMH_Marmel_5.png" alt-src="http://4.bp.blogspot.com/-R5QamvoxUmA/UOjIq1utGpI/AAAAAAAAKUw/hXCp5yeipeo/s640/2_630W.jpg">
+      </div>
+    </div>
+  </body>
+</html>
