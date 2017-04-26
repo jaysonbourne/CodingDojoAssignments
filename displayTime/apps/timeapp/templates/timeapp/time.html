@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Time Display</title>
+  </head>
+  <body>
+      <div id="container">
+        <fieldset>
+          <legend><h1>Right now is icecream time:</h1></legend>
+          <div class="box">
+            {% if datetime %}
+            {% for dt in datetime %}
+              <h2>{{dt.date}}</h2>
+              <h2>{{dt.time}}</h2>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </fieldset>
+
+      </div>
+  </body>
+</html>

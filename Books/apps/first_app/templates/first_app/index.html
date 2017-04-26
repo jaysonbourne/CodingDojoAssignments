@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Books</title>
+  </head>
+  <body>
+    <!-- Test Page -->
+    <form class="books" action="create" method="post">
+      {% csrf_token %}
+      <p>Title: <input type="text" name="title" ></p>
+      <p>Author: <input type="text" name="author" ></p>
+      <p>Published Year: <input type="date" name="year"></p>
+      <input type="submit" value="Add Books">
+    </form>
+    <h1>Books</h1>
+    <!-- {{all_books}} -->
+    {% for book in all_books %}
+      <p>{{book.title}} by: {{book.author}}  {{book.year}}</p>
+      <!-- <p>{{book.author}}</p> -->
+    {% endfor %}
+  </body>
+</html>
