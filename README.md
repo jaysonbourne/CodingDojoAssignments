@@ -1,3 +1,2 @@
 # CodingDojoAssignments
-THIS IS A DISORGANIZED ARRAY OF ALL ASSIGNMENTS FINISHED IN CODING DOJO
-SOME ARE HALF FINISHED OR COMPLETELY WRONG SO PLEASE TAKE EVERYTHIN IN HERE WITH A GRAIN OF SALT
+A collection of assignments that tracks the progression of my understanding of the stacks. Some of these assignments are riddled with mistakes, so please take it with a grain of salt if using as reference.
